@@ -35,9 +35,9 @@ BMIresult = () => {
             if(BMIindex < 18.5) {
                 h3.textContent = 'you\'\ re underweight';
             } else if(BMIindex >= 18.6 && BMIindex < 24.9) {
-                h3.textContent = 'you\'\ re weight is good';
+                h3.textContent = 'your weight is good';
             } else if(BMIindex >= 25 && BMIindex < 29.9) {
-                h3.textContent = 'unfortunately you\'\ re weight is too high'
+                h3.textContent = 'unfortunately your weight is too high'
             } else {
                 h3.textContent = 'be careful. You\'\ re overweight';
             }
